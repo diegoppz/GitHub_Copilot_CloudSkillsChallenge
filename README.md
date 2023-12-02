@@ -3,7 +3,6 @@ A Microsoft te desafia no TDC(The Development Conference) com o "Cloud Skills Ch
 
 
 | Inicio | 2023/12/01 | [GIT INIT](https://learn.microsoft.com/pt-br/training/modules/intro-to-git/0-introduction) | D |
-
 | A | B | C | D |
 
 - ["Build your own x"](https://github.com/Sevistuo/https-github.com-danistefanovic-build-your-own-x) (construa seu próprio X)
