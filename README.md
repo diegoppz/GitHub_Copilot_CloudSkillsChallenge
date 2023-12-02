@@ -9,6 +9,14 @@ A Microsoft te desafia no TDC(The Development Conference) com o "Cloud Skills Ch
  [   ]
  [ ] 
 
-- ["Build your own x"](https://twitter.com/danistefanovic) (construa seu próprio X) What i cannot crate, i do not understand | O que não consigo criar, eu não entendo - Richard Feynman
-- Raycasting (Wolfstain 3D) - 
+- ["Build your own x"](https://github.com/Sevistuo/https-github.com-danistefanovic-build-your-own-x) (construa seu próprio X)
+- | What i cannot crate, i do not understand | O que não consigo criar, eu não entendo - Richard Feynman |
+- | Raycasting (Wolfstain 3D) |  
+- [Typing...](https://www.youtube.com/watch?v=vGQSG_YnTOw&t=10s)
 - 
+- 
+
+
+
+
+
