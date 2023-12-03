@@ -1,8 +1,10 @@
 import requests
+import json
 
 def check_github_status():
     response = requests.get('https://kctbh9vrtdwd.statuspage.io/api/v2/status.json')
-    status = response.json()['status']['description']
-    print(f'O status atual do GitHub é: {status}')
+    data = response.json()
+    return data['status']['description']
 
-check_github_status()
+print(check_github_status())
+
