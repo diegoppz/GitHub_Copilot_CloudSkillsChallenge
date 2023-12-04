@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contagem regressiva</title>
+</head>
+<body>
+    <h1 id="tempoRestante"></h1>
+    <h1 id="sextou"></h1>
+
+    <script>
+        function atualizarContagemRegressiva() {
+            var agora = new Date();
+            var finalDoDia = new Date(agora);
+            finalDoDia.setHours(24, 0, 0, 0);
+
+            var sextaFeira19h = new Date(agora);
+            sextaFeira19h.setDate(sextaFeira19h.getDate() + (5 + 7 - sextaFeira19h.getDay()) % 7);
+            sextaFeira19h.setHours(19, 0, 0, 0);
+
+            var tempoRestanteFinalDoDia = Math.floor((finalDoDia - agora) / 1000);
+            var tempoRestanteSextaFeira19h = Math.floor((sextaFeira19h - agora) / 1000);
+
+            document.getElementById('tempoRestante').innerText = 'Tempo restante para o final do dia: ' + tempoRestanteFinalDoDia + ' segundos';
+            document.getElementById('sextou').innerText = 'Tempo restante para Sextou: ' + tempoRestanteSextaFeira19h + ' segundos';
+        }
+
+        setInterval(atualizarContagemRegressiva, 1000);
+    </script>
+</body>
+</html>
